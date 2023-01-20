@@ -1,0 +1,62 @@
+
+[
+    {
+        "id" : 1,
+      "model" : "A" ,
+      "release" : 2018  ,
+      "Rs" : 300
+     },
+    {
+        "id" : 2,
+      "model" : "B" ,
+      "release" : 2019  ,
+      "Rs" : 400
+    },
+    {
+        "id" : 3,
+      "model" : "C" ,
+      "release" : 2020  ,
+      "Rs" : 500
+    },
+    {
+        "id" : 4,
+      "model" : "D" ,
+      "release" : 2021  ,
+      "Rs" : 600
+    },
+    {
+        "id" : 5,
+      "model" : "E" ,
+      "release" : 2022  ,
+      "Rs" : 600
+    },
+    {
+        "id" : 6,
+      "model" : "F" ,
+      "release" : 2023  ,
+      "Rs" : 700
+    },
+    {
+        "id" : 7,
+      "model" : "G" ,
+      "release" : 2024  ,
+      "Rs" : 800
+    },
+    {
+        "id" : 8,
+      "model" : "H" ,
+      "release" : 2025  ,
+      "Rs" : 900
+    }
+    ,
+    {
+        "id" : 9,
+      "model" : "I" ,
+      "release" : 2026  ,
+      "Rs" : 900
+    }
+
+
+
+
+]

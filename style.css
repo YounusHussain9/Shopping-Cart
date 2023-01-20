@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+font-size: 2rem;
+text-align: center;
+}
+
+aside{
+    /* border: 2px solid green; */
+position: relative;
+width: 20%;
+top: 3rem;
+}
+.flt-content{
+    border: 2px solid green;
+    border-radius: 1rem;
+    display: block;    
+}
+.flt-content>*{
+    margin: .1rem;
+}
+#flth5{
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+h3{
+    padding: 2rem;
+}
+
+#fltinpt{
+    width: 30%;
+    position: relative;
+    bottom: 1rem;
+}
+
+#maxfltinp{
+    width: 30%;
+    position: relative;
+    bottom: 1rem;
+
+}
+
+#mobile-section{
+    cursor: pointer;
+
+}
+
+#mobile-section:hover{
+    text-decoration: underline;
+    color: blueviolet;
+filter: brightness(100%);
+}
+
+
+.mobile-sec{
+    /* border: 2px solid green; */
+position: relative;
+width: 70%;
+left: 24%;
+height: auto;
+display: flex;
+bottom: 10rem;
+/* flex-direction: column; */
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+
+.mobile-sec > *{
+    font-size: 1rem;
+}
+
+ 
+.mob1{
+    border:2px solid black;
+
+margin: 1rem;
+width: 40%;
+height: auto;
+border-radius: 1rem;
+cursor: pointer;
+padding: 1rem;
+} 
+
+.mob1:hover{
+    transform: translate(0%,-5%);
+}
+.mob1>*{
+    font-size: 1.4rem;
+}
+#search{
+    height:3rem;
+width: 30%;
+font-size: 1rem;
+}
+
+aside>ul>li>a{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+a:active{
+    color: #3faa43;
+}
+
+
+.mobdet{
+    border: 2px solid black;
+    border-radius: 1rem;
+position: relative;
+width: 60%;
+margin: 0 auto;
+height: auto;
+display: flex;
+flex-direction: row;
+padding: 2rem;
+bottom: 10rem;
+left: 1rem;
+}
+.mobile{
+    /* border:2px solid black; */
+margin: 1rem;
+width: 50%;
+height: 200px;
+border-radius: 1rem;    
+
+}
+.imgDet{
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+object-position: center;
+border-radius: 2rem;
+}
+
+.text-content{
+    /* border: 2px solid red; */
+height: auto;
+font-size: 1.2rem;
+}
+.text-content>*{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.atc{
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: bold;
+border-radius: .5rem;
+background-color: green;
+color: white;
+outline: none;
+cursor: pointer;
+position: relative;
+right: 0%;
+left: 3rem;  
+}
+
+.back{
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: bold;
+border-radius: .5rem;
+background-color: rgb(22, 95, 22);
+color: white;
+outline: none;
+cursor: pointer;
+position: relative;
+left: 2rem;
+
+}
+
+.filter-sec{
+    /* border: 2px solid green; */
+    position: relative;
+    width: 50%;
+    left: 24%;
+    height: 440px;    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+       bottom:11rem;
+}
+
+.title{
+    position: relative;
+    right: 6rem;
+bottom: 10rem;
+}
+
+
+#cart-icon{
+text-align: justify;
+    position: relative;
+left: 20%;
+font-size: 2rem;
+cursor: pointer;
+}
+#tag{
+    border-radius: 50%;
+    background-color: red;
+    width: 2rem;
+    font-size: 1.5rem;
+position: relative;
+left: 70%;
+bottom: 4rem;
+color: white;
+}
+
+
+
+
+/* pagination Style */
+
+.hidden{
+    display: none;
+}
+
+.pagination {
+    display: flex;
+justify-content: center;
+padding: 2rem;
+
+}
+  .pagination h {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+border-radius: .3rem;
+margin-left: 1rem;
+cursor: pointer;
+}
+  .pagination h:hover {
+    background-color: #3faa43;
+    color: white;
+    border: 1px solid #4CAF50;
+  }  
+  /* .pagination h:hover:not(.active) {background-color: #ddd;} */
+  
+
+  .loader{
+    border-radius: 50%;
+}
+
+.li{
+    background-color: #f4f1f1;
+    height: auto;
+    width: 100%;
+    border: 1px solid rgb(207, 202, 202);
+    padding: 1rem;
+    color: rgb(65, 64, 64);
+    
+}
+.ul{
+    list-style: none;
+}
+#dropDown{
+    position: absolute;
+    z-index: 1;
+    left: 35%;
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+
+.btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 10rem;
+    font-weight: 700;
+border-radius: 1rem;    
+background-color: #4CAF50;
+color: white;
+}
+
+.Cbtn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: auto;
+    font-weight: 700;
+border-radius: 1rem;    
+background-color: #1a771e;
+color: white;
+margin: 1rem;
+}
+
+
+/* cancel */
+
+#cancel{
+    position: relative;
+left: 45%;
+}
+
+/* filtr btn */
+
+.fltbtn{
+    position: absolute;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 700;
+    padding: 0.1rem;
+    font-size: 1rem;
+    margin: 0 0 0 .2rem;
+    outline: none;
+}

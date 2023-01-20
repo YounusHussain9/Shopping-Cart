@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online-Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script  src="./clothes.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+<h2>My E-Mart</h2>
+<i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+<h1 id="tag">0</h1>
+<div class="search">
+    <input type="text" placeholder="Search" id="search" />
+</div> 
+ <section id="dropDown"></section>
+
+<h3>👚 Clothes</h3>
+<aside>
+    <ul>
+        <li id="mobile-section"><a href="./index.html">Mobiles</a></li>
+        <li id="mobile-section"><a href="./clothes.html">Clothes</a></li>
+        <li id="mobile-section"><a href="./Electronic.html">Electronics</a></li>
+    </ul>
+
+<div class="flt-content">
+    <h5 id="flth5">Filter</h5>
+<input type="text"  id="fltinpt" placeholder="minRange" >
+<input type="text" id="maxfltinp" placeholder="maxRange" >
+<button onclick="filter()" class="fltbtn">Filter</button>
+</div>
+
+</aside>
+
+
+<img src="./Ellipsis-1s-200px.svg" alt="" class="loader" id="loader" hidden>
+<section class="mobile-sec" id="mobile-sec">
+</section>
+<div class="pagination" id="pagination" >
+    <!-- <a href="#">&laquo;</a> -->
+    <h onclick="pagination(1)">1</h>
+    <h onclick="pagination(2)">2</h>
+    <h onclick="pagination(3)">3</h>
+    <!-- <a href="#">&raquo;</a> -->
+  </div>
+<section class="search-sec" id="search-sec"></section>
+<section class="filter-sec" id="filter-sec" ></section>
+<section class="cart-sec" id="cart-sec"></section>
+
+<div  id="mobdet" ></div>
+    
+
+</body>
+</html>
